@@ -1,0 +1,14 @@
+flask
+numpy
+pandas
+joblib
+scikit-learn
+lime
+langchain
+langchain-community
+langchain-ollama
+faiss-cpu
+PyPDF2
+tqdm
+python-dotenv
+gunicorn
