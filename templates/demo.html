@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pollution Alert System</title>
+  <style>
+    /* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #0277bd;
+  }
+  
+  .alert-section {
+    margin-top: 30px;
+  }
+  
+  .alert-section h2 {
+    font-size: 1.5em;
+    color: #0288d1;
+  }
+  
+  .alert-card {
+    background-color: #f1f8e9;
+    border: 1px solid #c5e1a5;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .alert-card h3 {
+    color: #388e3c;
+  }
+  
+  .alert-card p {
+    font-size: 1em;
+    margin: 5px 0;
+  }
+  
+  .alert-card strong {
+    color: #d32f2f;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  }
+  
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Pollution Alert Notification </h1>
+
+    <div class="alert-section">
+      <h2>Vehicle Alerts</h2>
+      <div class="alert-card">
+        <h3>Vehicle Type: Petrol Car</h3>
+        <p>Vehicle Number: ABC1234</p>
+        <p>Alert: Due to high pollution levels, avoid using your vehicle.</p>
+        <p>Alternative: Please use public transport for today.</p>
+        <p><strong>Action Required:</strong> Non-compliance may result in a fine.</p>
+      </div>
+      
+      <div class="alert-card">
+        <h3>Vehicle Type: Big Truck</h3>
+        <p>Vehicle Number: XYZ5678</p>
+        <p>Alert: Due to high pollution levels, reduce operations.</p>
+        <p>Alternative: Consider halting operations for today.</p>
+        <p><strong>Action Required:</strong> Non-compliance may result in a fine.</p>
+      </div>
+
+      <div class="alert-card">
+        <h3>Vehicle Type: Bike</h3>
+        <p>Vehicle Number: MNO4321</p>
+        <p>Alert: Due to pollution spikes, avoid unnecessary travel.</p>
+        <p>Alternative: Please use alternate transportation.</p>
+        <p><strong>Action Required:</strong> Non-compliance may result in a fine.</p>
+      </div>
+    </div>
+
+    <div class="alert-section">
+      <h2>Industry Alerts</h2>
+      <div class="alert-card">
+        <h3>Industry Type: Manufacturing Plant</h3>
+        <p>Industry Name: XYZ Corp</p>
+        <p>Alert: High pollution levels detected, reduce production.</p>
+        <p><strong>Action Required:</strong> Cease operations or reduce activity immediately to avoid penalties.</p>
+      </div>
+
+      <div class="alert-card">
+        <h3>Industry Type: Construction</h3>
+        <p>Industry Name: ABC Constructions</p>
+        <p>Alert: Pollution levels above safe threshold. Reduce construction activities.</p>
+        <p><strong>Action Required:</strong> Limit construction work or halt operations for the day.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
